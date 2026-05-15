@@ -1,0 +1,296 @@
+========================================================================================================================
+NLP SEQUENCE MODELING - SAMPLE PREDICTIONS REPORT
+========================================================================================================================
+
+Generated: 2026-05-15 13:10:15
+Total Test Samples: 300
+Samples Shown: 10
+
+------------------------------------------------------------------------------------------------------------------------
+MODEL PERFORMANCE SUMMARY
+------------------------------------------------------------------------------------------------------------------------
+Baseline Model (Logistic Regression + TF-IDF):
+  • Accuracy:  1.0000
+  • Precision: 1.0000
+  • Recall:    1.0000
+  • F1-Score:  1.0000
+
+LSTM Sequence Model:
+  • Accuracy:  0.3500
+  • Precision: 0.1167
+  • Recall:    0.3333
+  • F1-Score:  0.1728
+
+========================================================================================================================
+DETAILED SAMPLE PREDICTIONS
+========================================================================================================================
+
+SAMPLE #1
+------------------------------------------------------------------------------------------------------------------------
+Original Message: like new payment easy use ticket number
+True Label: positive
+
+BASELINE MODEL (Logistic Regression + TF-IDF):
+  Predicted: positive
+  Confidence: 0.8238 (82.38%)
+  All Probabilities:
+    • negative: 0.0768
+    • neutral: 0.0994
+    • positive: 0.8238
+
+LSTM SEQUENCE MODEL:
+  Predicted: neutral
+  Confidence: 0.3439 (34.39%)
+  All Probabilities:
+    • negative: 0.3387
+    • neutral: 0.3439
+    • positive: 0.3174
+
+COMPARISON:
+  Baseline Result: ✓ CORRECT
+  LSTM Result:     ✗ INCORRECT
+
+
+SAMPLE #2
+------------------------------------------------------------------------------------------------------------------------
+Original Message: great service clear communication support team
+True Label: positive
+
+BASELINE MODEL (Logistic Regression + TF-IDF):
+  Predicted: positive
+  Confidence: 0.9485 (94.85%)
+  All Probabilities:
+    • negative: 0.0285
+    • neutral: 0.0230
+    • positive: 0.9485
+
+LSTM SEQUENCE MODEL:
+  Predicted: neutral
+  Confidence: 0.3439 (34.39%)
+  All Probabilities:
+    • negative: 0.3387
+    • neutral: 0.3439
+    • positive: 0.3174
+
+COMPARISON:
+  Baseline Result: ✓ CORRECT
+  LSTM Result:     ✗ INCORRECT
+
+
+SAMPLE #3
+------------------------------------------------------------------------------------------------------------------------
+Original Message: refund still pending experience frustrating
+True Label: negative
+
+BASELINE MODEL (Logistic Regression + TF-IDF):
+  Predicted: negative
+  Confidence: 0.9288 (92.88%)
+  All Probabilities:
+    • negative: 0.9288
+    • neutral: 0.0287
+    • positive: 0.0425
+
+LSTM SEQUENCE MODEL:
+  Predicted: neutral
+  Confidence: 0.3439 (34.39%)
+  All Probabilities:
+    • negative: 0.3387
+    • neutral: 0.3439
+    • positive: 0.3174
+
+COMPARISON:
+  Baseline Result: ✓ CORRECT
+  LSTM Result:     ✗ INCORRECT
+
+
+SAMPLE #4
+------------------------------------------------------------------------------------------------------------------------
+Original Message: app crashes whenever try use analytics
+True Label: negative
+
+BASELINE MODEL (Logistic Regression + TF-IDF):
+  Predicted: negative
+  Confidence: 0.9235 (92.35%)
+  All Probabilities:
+    • negative: 0.9235
+    • neutral: 0.0329
+    • positive: 0.0436
+
+LSTM SEQUENCE MODEL:
+  Predicted: neutral
+  Confidence: 0.3439 (34.39%)
+  All Probabilities:
+    • negative: 0.3387
+    • neutral: 0.3439
+    • positive: 0.3174
+
+COMPARISON:
+  Baseline Result: ✓ CORRECT
+  LSTM Result:     ✗ INCORRECT
+
+
+SAMPLE #5
+------------------------------------------------------------------------------------------------------------------------
+Original Message: response team helpful professional
+True Label: positive
+
+BASELINE MODEL (Logistic Regression + TF-IDF):
+  Predicted: positive
+  Confidence: 0.9445 (94.45%)
+  All Probabilities:
+    • negative: 0.0278
+    • neutral: 0.0277
+    • positive: 0.9445
+
+LSTM SEQUENCE MODEL:
+  Predicted: neutral
+  Confidence: 0.3439 (34.39%)
+  All Probabilities:
+    • negative: 0.3387
+    • neutral: 0.3439
+    • positive: 0.3174
+
+COMPARISON:
+  Baseline Result: ✓ CORRECT
+  LSTM Result:     ✗ INCORRECT
+
+
+SAMPLE #6
+------------------------------------------------------------------------------------------------------------------------
+Original Message: someone explain difference plans
+True Label: neutral
+
+BASELINE MODEL (Logistic Regression + TF-IDF):
+  Predicted: neutral
+  Confidence: 0.9346 (93.46%)
+  All Probabilities:
+    • negative: 0.0332
+    • neutral: 0.9346
+    • positive: 0.0321
+
+LSTM SEQUENCE MODEL:
+  Predicted: neutral
+  Confidence: 0.3439 (34.39%)
+  All Probabilities:
+    • negative: 0.3387
+    • neutral: 0.3439
+    • positive: 0.3174
+
+COMPARISON:
+  Baseline Result: ✓ CORRECT
+  LSTM Result:     ✓ CORRECT
+
+
+SAMPLE #7
+------------------------------------------------------------------------------------------------------------------------
+Original Message: like new video call easy use
+True Label: positive
+
+BASELINE MODEL (Logistic Regression + TF-IDF):
+  Predicted: positive
+  Confidence: 0.8455 (84.55%)
+  All Probabilities:
+    • negative: 0.0808
+    • neutral: 0.0736
+    • positive: 0.8455
+
+LSTM SEQUENCE MODEL:
+  Predicted: neutral
+  Confidence: 0.3439 (34.39%)
+  All Probabilities:
+    • negative: 0.3387
+    • neutral: 0.3439
+    • positive: 0.3174
+
+COMPARISON:
+  Baseline Result: ✓ CORRECT
+  LSTM Result:     ✗ INCORRECT
+
+
+SAMPLE #8
+------------------------------------------------------------------------------------------------------------------------
+Original Message: like new report download easy use
+True Label: positive
+
+BASELINE MODEL (Logistic Regression + TF-IDF):
+  Predicted: positive
+  Confidence: 0.7805 (78.05%)
+  All Probabilities:
+    • negative: 0.1173
+    • neutral: 0.1022
+    • positive: 0.7805
+
+LSTM SEQUENCE MODEL:
+  Predicted: neutral
+  Confidence: 0.3439 (34.39%)
+  All Probabilities:
+    • negative: 0.3387
+    • neutral: 0.3439
+    • positive: 0.3174
+
+COMPARISON:
+  Baseline Result: ✓ CORRECT
+  LSTM Result:     ✗ INCORRECT
+
+
+SAMPLE #9
+------------------------------------------------------------------------------------------------------------------------
+Original Message: someone explain difference plans
+True Label: neutral
+
+BASELINE MODEL (Logistic Regression + TF-IDF):
+  Predicted: neutral
+  Confidence: 0.9346 (93.46%)
+  All Probabilities:
+    • negative: 0.0332
+    • neutral: 0.9346
+    • positive: 0.0321
+
+LSTM SEQUENCE MODEL:
+  Predicted: neutral
+  Confidence: 0.3439 (34.39%)
+  All Probabilities:
+    • negative: 0.3387
+    • neutral: 0.3439
+    • positive: 0.3174
+
+COMPARISON:
+  Baseline Result: ✓ CORRECT
+  LSTM Result:     ✓ CORRECT
+
+
+SAMPLE #10
+------------------------------------------------------------------------------------------------------------------------
+Original Message: want understand warranty terms product
+True Label: neutral
+
+BASELINE MODEL (Logistic Regression + TF-IDF):
+  Predicted: neutral
+  Confidence: 0.9154 (91.54%)
+  All Probabilities:
+    • negative: 0.0438
+    • neutral: 0.9154
+    • positive: 0.0408
+
+LSTM SEQUENCE MODEL:
+  Predicted: neutral
+  Confidence: 0.3439 (34.39%)
+  All Probabilities:
+    • negative: 0.3387
+    • neutral: 0.3439
+    • positive: 0.3174
+
+COMPARISON:
+  Baseline Result: ✓ CORRECT
+  LSTM Result:     ✓ CORRECT
+
+
+========================================================================================================================
+SUMMARY STATISTICS
+========================================================================================================================
+Baseline Model Accuracy on Samples: 1.0000 (100.00%)
+LSTM Model Accuracy on Samples:     0.3000 (30.00%)
+Baseline Correct Predictions: 10/10
+LSTM Correct Predictions:     3/10
+
+========================================================================================================================
